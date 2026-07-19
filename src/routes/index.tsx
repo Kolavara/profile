@@ -9,6 +9,7 @@ import SkillCard from "@/components/SkillCard";
 import ProjectCard from "@/components/ProjectCard";
 import NetworkGraph from "@/components/NetworkGraph";
 import FlipFlapText from "@/components/FlipFlapText";
+import CustomCursor from "@/components/CustomCursor";
 import Footer from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
@@ -25,6 +26,8 @@ function Home() {
   return (
     <>
       {loading && <Loader onFinish={handleFinishLoading} />}
+
+      <CustomCursor />
 
       <div className="min-h-screen" style={{ background: "var(--bg-primary)" }}>
         <Header />

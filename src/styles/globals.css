@@ -51,6 +51,12 @@ body {
   background: var(--bg-primary);
   color: var(--text-primary);
   transition: background 0.3s ease, color 0.3s ease;
+  cursor: none;
+}
+
+/* Hide native cursor everywhere so the custom dot is the only cursor */
+* {
+  cursor: none !important;
 }
 
 ::selection {
