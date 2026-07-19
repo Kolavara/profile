@@ -1,0 +1,31 @@
+{
+  "name": "aryan-gurudath-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "export": "vite build"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.114.29",
+    "@tanstack/react-router-with-query": "^1.114.29",
+    "framer-motion": "^12.10.5",
+    "lenis": "^1.2.3",
+    "lucide-react": "^0.510.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@tanstack/router-plugin": "^1.114.29",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.4.2",
+    "tailwindcss": "^4.2.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
